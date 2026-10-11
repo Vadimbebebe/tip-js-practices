@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #222;
+}
+header nav a { margin-right: 1rem; }
+#task-summary p { margin: 0.2rem 0; }
+#task-filters { margin: 1rem 0; }
+#task-filters button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+#task-filters button.is-active { font-weight: bold; }
+#task-list { list-style: none; padding: 0; }
+.task-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.task-card.is-completed .task-title { text-decoration: line-through; opacity: 0.6; }
+.task-title { margin: 0 0 0.4rem; font-size: 1.05rem; }
+.task-status, .task-priority { margin: 0 0 0.4rem; font-size: 0.9rem; }
+.task-actions button { margin-right: 0.5rem; }
+[hidden] { display: none !important; }

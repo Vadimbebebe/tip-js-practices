@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>ПР3 — эксперименты DOM и событий</title>
+  </head>
+  <body>
+    <h1>Эксперименты</h1>
+
+    <p id="page-title">Заголовок страницы</p>
+
+    <p>
+      <button type="button" data-task-id="23" id="add-button">
+        Добавить запись
+      </button>
+    </p>
+
+    <p>
+      <button type="button" id="title-button">
+        <span id="title-span">Изменить заголовок</span>
+      </button>
+    </p>
+
+    <ul id="initial-items">
+      <li>Первая</li>
+      <li>Вторая</li>
+    </ul>
+
+    <pre id="log"></pre>
+
+    <script type="module" src="./dom-events.js"></script>
+  </body>
+</html>
